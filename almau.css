@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home {
+    background-color: #0099cc;
+    color: white;
+}
+
+.home img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.services {
+    background-color: #ffffff;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    color: #333;
+}
+
+button.reserve-btn {
+    background-color: #0099cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button.reserve-btn:hover {
+    background-color: #0077b3;
+}
+
+.payment .pay-link {
+    background-color: #4caf50;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.payment .pay-link:hover {
+    background-color: #45a049;
+}
+
+.contact a {
+    color: #0099cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ffcc00;
+}

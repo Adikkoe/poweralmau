@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Повербанк аренасы</title>
+    <link rel="stylesheet" href="almau.css">
+</head>
+<body>
+
+    <!-- Басты бет -->
+    <header>
+        <div class="logo">
+            <img src="https://almau.edu.kz/wp-content/uploads/2024/07/193030cd57f9e147abd3abde61ece97f-1.png" alt="Алмаю Университеті">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Басты бет</a></li>
+                <li><a href="#services">Қызметтер</a></li>
+                <li><a href="#contact">Байланыс</a></li>
+                <li><a href="#payment">Төлем</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Басты бет -->
+    <section id="home" class="home">
+        <h1>Повербанк аренасы</h1>
+        <p>Алмаю Университетінде сіздерге мобильді құрылғыларды зарядтауға арналған повербанк аренасы қызметі ұсынылады.</p>
+        <img src="https://content.onliner.by/news/970x485/6ecdec98033eaea2b34e6141cfce92f2.jpeg" alt="Повербанк аренасы">
+    </section>
+
+    <!-- Қызметтер -->
+    <section id="services" class="services">
+        <h2>Қызметтер</h2>
+        <p>Қай жерде орналасқан повербанк және бағасы туралы мәліметтер.</p>
+        <div class="service-item">
+            <h3>Кітапхана (1-этаж)</h3>
+            <p>Повербанк бос. Бағасы: 300 KZT/сағат.</p>
+            <button class="reserve-btn" onclick="startTimer('library1')">Жалға алу</button>
+            <p id="library1-timer"></p>
+        </div>
+    </section>
+
+    <!-- Байланыс -->
+    <section id="contact" class="contact">
+        <h2>Байланыс</h2>
+        <p>Сұрақтарыңыз болса, төмендегі номерге хабарласыңыз:</p>
+        <p>WhatsApp: <a href="https://wa.me/77763460165?text=Сұрақ қою">+7 776 346 0165</a></p>
+    </section>
+
+    <!-- Төлем жасау -->
+    <section id="payment" class="payment">
+        <h2>Төлем жасау</h2>
+        <p>Төлем жасау үшін төмендегі сілтемені басыңыз.</p>
+        <a href="https://kaspi.kz/merchant/your-kaspi-merchant-link" class="pay-link" target="_blank">Kaspi арқылы төлем жасау</a>
+    </section>
+
+    <script src="almau.js"></script>
+</body>
+</html>
